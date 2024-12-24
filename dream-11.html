@@ -6,6 +6,7 @@
     <title>Dream 11</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -29,7 +30,7 @@
     </header>
 
     <main>
-        <div class="banner text-white py-7 flex items-center justify-center flex-col rounded-md bg-[url('/assets/bg-shadow.png')] bg-cover bg-slate-900">
+        <div class="banner h-auto text-white py-9 flex items-center justify-center flex-col rounded-md bg-[url('/assets/bg-shadow.png')] bg-cover bg-slate-900">
             <div class="bg-img">
                 <img src="./assets/banner-main.png" alt="">
             </div>
@@ -39,6 +40,657 @@
                 <button class="btn btn-warning outline outline-offset-2 outline-1">Claim Free Credit</button>
             </div>
         </div>
+
+        <div class="available m-3 flex justify-between">
+            <div><h1>Available Players</h1></div>
+            <div class="join join-horizontal">
+              
+              <button class="btn bg-orange-400 join-item">Available</button>
+              <button class="btn join-item">Selected(0)</button>
+            </div>
+        </div>
+
+
+                   <!-- Card section -->
+
+
+        <div class="player grid grid-cols-3 pl-4 ">
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="card mb-5 card-compact bg-base-100 w-96 shadow-xl ">
+                <figure>
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202409/rohit-sharma-131403815-1x1.jpg?VersionId=yCRNMUxYAFhoxwK0TEHLfvafEy4yw78T"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                      <div class="name flex gap-2 font-semibold items-center">
+                        <i class="fa-solid fa-user rounded-md"></i>
+                        <h1 class="text-lg ">Rohit Sharma</h1>
+                      </div>
+                 
+                  <div class="second-part flex justify-between ">
+                        <div class="second-inner flex gap-2 opacity-70 items-center">
+                          <i class="fa-solid fa-flag"></i>
+                          <p class="font-semibold">India</p>
+                        </div>
+                    <div class="inner-btn">
+                      <p class="bg-slate-200 p-1 rounded-md">All-Rounder</p>
+                    </div>
+                  </div>
+                       
+                  <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
+
+                  <div class="lower-part">
+                    <div class="lower-text font-semibold">
+                      <div class="rating flex justify-between">
+                        <h1>Rating</h1>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-yellow-400" checked="checked" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                          <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div>
+                      </div>
+                      <h1>Right-Handed Batsman</h1>
+                    </div>
+                    <div class="price flex justify-between">
+                      <h1 class="text-lg font-bold">Price : $1500000</h1>
+                      <button class=" btn btn-sm rounded-lg p-2  ">Choose The Player</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+             
+        </div>
     </main>
+                           <!-- Footer section Start -->
+
+
+    <footer>
+
+                      <!-- Newsletter section -->
+          
+     <div class="footer-upper flex items-center justify-center mt-[200px]">
+      <div class="news-letter outline-1 outline-white outline outline-offset-8 absolute z-40 top-100 rounded-lg flex items-center justify-center flex-col  bg-[url('/assets/bg-shadow.png')]  bg-cover bg-slate-100  h-[200px] w-[700px]">
+        <h1 class="text-xl font-bold my-2">Subscribe to our Newsletter</h1>
+        <p class="my-2">Get the latest updates and news right in your inbox!</p>
+        <input class="pl-2 rounded-md w-60 h-10 bg-white" placeholder="Enter your email" type="email" name="" id="">
+        <button class="bg-gradient-to-r from-pink-500 to-yellow-500 h-8 w-20 rounded-lg text-white my-3">Subscribe</button>
+      </div>
+     </div>
+
+
+                   <!-- footer lower section -->
+
+                   
+
+     <div class="footer-lower bg-slate-950 pt-[130px] px-[130px]  relative ">
+         <div class="footer-logo flex items-center justify-center">
+          <img src="./assets/logo-footer.png" alt="">
+
+         </div>
+         <div class="three-section grid grid-cols-3 gap-5 my-5 justify-around text-white ">
+          <div class="first-section">
+             <h1 class="font-bold text-xl">About Us</h1>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dignissimos?</p>
+          </div>
+          <div class="second-section">
+           <h1 class="font-bold text-xl">Quick Links</h1>
+           <ul  class="list-disc">
+            <li>Home</li>
+            <li>Service</li>
+            <li>About</li>
+            <li>Contact</li>
+           </ul>
+          </div>
+          <div class="third-section">
+               <h1 class="font-bold text-xl">Subscribe</h1>
+               <p>Subscribe to our newsletter for the latest updates.</p>
+               <div class="join join-horizontal">
+              
+                <input class="join-item pl-4" placeholder="Enter your email" type="email" name="" id="">
+                <button class=" join-item bg-gradient-to-r from-pink-500 to-yellow-500 h-8 w-20 rounded-lg text-white my-3">Subscribe</button>
+
+              </div>
+          </div>
+         </div>
+              <div class="copyright">
+              <h1 class="text-center text-white mt-20">@2024 Your Company All Rights Reserved.</h1>
+            </div>
+     </div>
+     
+    </footer>
+
 </body>
 </html>
